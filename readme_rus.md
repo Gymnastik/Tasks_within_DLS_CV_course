@@ -17,7 +17,7 @@
    * Функция обучения и валидации с дополнительным функционалом (визуализация, sheduler и т.д.)
    * Пишем IoU с нуля в качестве метрики
    * Пишем простые лосс функции с нуля: BCE loss, DICE loss, Focal loss
-   * Пишем кастомные сегментационные лоссы на базе статей с arxiv.org:<br> TotalVariation loss, Tversky loss, Lovasz-Hinge loss, Sctructural Similarity Loss (SSL)
+   * Пишем кастомные сегментационные лоссы на базе статей с arxiv.org:<br> TotalVariation loss, Tversky loss, Lovasz-Hinge loss, Structural Similarity Loss (SSL)
    * Сравнение всех моделей и лоссов и общие выводы по всему эксперименту.
    
 4. [Автокодировщики](Autoencoders.ipynb)
