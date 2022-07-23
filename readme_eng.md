@@ -46,7 +46,7 @@
    * Writing a composite loss for VAE (KL-divergence + log-likelihood)
    * Generate random digits (VAE trained on MNIST dataset)
    * Conditional VAE implementation
-   * Generate digits digits with class selection (CVAE trained on MNIST dataset)
+   * Generate digits with class selection (CVAE trained on MNIST dataset)
    * Comparison of distributions in latent space (reduce dimensionality to 2 by TSNE).
    * Denoiser implementation based on VAE.
    * Implement VAE-based face recognition (look for the closest ones in latent space using cosine similarity)
