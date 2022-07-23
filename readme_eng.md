@@ -10,7 +10,7 @@
    * Oversampling (SMOTE, ADASYN, SMOTEENN, using imbalanced learn library)
    * ImbLearn pipelines
    * Writing a function to easily compare metrics on different models
-   * Use GridSearch to find hyperparameters
+   * Use GridSearch to find best hyperparameters
    * Gradient boosting (XGB, Catboost)
    * Stacking 7 different models with logistic regression as meta-algorithm.
    
