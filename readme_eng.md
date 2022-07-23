@@ -1,7 +1,7 @@
 ## These tasks were completed as part of the Deep Learning(a bit of ML and mostly CV) course at [Deep Learning School (MIPT)](https://www.dlschool.org/)
 ### Main framework: PyTorch
 #### Each topic has a link to the notebook itself as well as a link to the notebook in the google colab (much easier to navigate by the table of contents).
-1. [Customer churn prediction. (Telco customer churn dataset) Классический ML](Churn_prediction.ipynb) ([Colab](https://colab.research.google.com/drive/1FH-85LxBdQdW8LxnRp32H20pWKSQoYIt?usp=sharing))
+1. [Customer churn prediction. (Telco customer churn dataset) Classical ML](Churn_prediction.ipynb) ([Colab](https://colab.research.google.com/drive/1FH-85LxBdQdW8LxnRp32H20pWKSQoYIt?usp=sharing))
    * Data preprocessing, filling missing values
    * Exploratory analysis (statistics, correlation matrices, cross information, plots)
    * Feature engineering
