@@ -1,7 +1,21 @@
 ## Задачи, выполненные в рамках курса Deep Learning от [DLS(МФТИ)](https://www.dlschool.org/)
 ### Основной фрэймворк: PyTorch
-
-1. [Классификация персонажей мультсериала "Симпсоны" (kaggle competition)](Classification_of_Simpsons_series_characters.ipynb)
+#### В каждом пункте ссылка на сам блокнот а также ссылка на блокнот в google colab.<br>Там удобно пользоваться навигацией по оглавлению блокнота. 
+1. [Предсказание оттока пользователей. (Telco customer churn dataset) Классический ML](Churn_prediction.ipynb) ([Colab](https://colab.research.google.com/drive/1FH-85LxBdQdW8LxnRp32H20pWKSQoYIt?usp=sharing))
+   * Препроцессинг данных, заполнение пропущенных значений
+   * Разведочный анализ (статистики, матрицы корреляций, взаимная информация, графики)
+   * Feature engineering
+   * sklearn-пайплайны
+   * Пишем кастомные трансформеры для препроцессинга в sklearn
+   * Оверсемплинг (SMOTE, ADASYN, SMOTEENN, используем imbalanced learn библиотеку)
+   * ImbLearn-пайплайны
+   * Пишем функцию для удобного сравнения метрик на разных моделях
+   * Используем GridSearch для подбора гиперпараметров
+   * Градиентый бустинг (XGB, Catboost)
+   * Стэкинг 7 разных моделей с логистической регрессией в качестве метаалгоритма.
+   
+3. [Классификация персонажей мультсериала "Симпсоны" (kaggle competition)](Classification_of_Simpsons_series_characters.ipynb)
+   ([Colab](https://colab.research.google.com/drive/1NFBKi9QqfwxVN2pJE8rC4UUT_BXVXuBT?usp=sharing))
    * Transfer learning
    * Аугментации
    * Взвешенное сэмплирование
@@ -9,7 +23,7 @@
    * кастомный класс датасета с раширенными возможностями
    * обёртка для базового Subset, с возможностью применять к каждому сабсету свой стэк аугментаций.
    
-2. [Сегментация медицинских изображений](Segmentation_of_dermatoscopic_images.ipynb)
+3. [Сегментация медицинских изображений](Segmentation_of_dermatoscopic_images.ipynb) ([Colab](https://colab.research.google.com/drive/1NR6dmXTBELhtjWTmLMtOL9GoQFCKZ6Vc?usp=sharing))
    * Кастомные классы Dataset и Subset с дополнительным функционалом.
    * Аугментации на базе Albumentations
    * Два варианта SegNet (единым классом и модульный, где каждый блок реализован отдельным классом)
@@ -20,7 +34,8 @@
    * Пишем кастомные сегментационные лоссы на базе статей с arxiv.org:<br> TotalVariation loss, Tversky loss, Lovasz-Hinge loss, Structural Similarity Loss (SSL)
    * Сравнение всех моделей и лоссов и общие выводы по всему эксперименту.
    
-4. [Автокодировщики](Autoencoders.ipynb)
+4. [Автокодировщики](Autoencoders.ipynb) 
+   ([Colab](https://colab.research.google.com/drive/1A1zU22z4iNPuzuNLBgOyOXO_WwNxC6dZ?usp=sharing))
    * Функция сборки и предобработки данных. (скачивание, трансформы, сортировка, дополнительные атрибуты)
    * Реализация классического автокодировщика Vanilla Autoencoder в двух вариантах (линейные слои, свёртки)
    * Функция обучения и валидации с дополнительным функционалом (визуализация, sheduler и т.д.)
@@ -35,7 +50,7 @@
    * Реализуем Denoiser на базе VAE.
    * Реализуем распознавание лиц на базе VAE (ищем ближайшие в латентном пространстве используя косинусное сходство)
    
-6. [Генеративные состязательные сети](GANs.ipynb)
+5. [Генеративные состязательные сети](GANs.ipynb) ([Colab](https://colab.research.google.com/drive/1JCd4wBrm6I2JA8SE5EB8j-_FUrKAEA9A?usp=sharing))
    * Кастомный класс Dataset с дополнительным функционалом (зашиваем аугментации в класс)
    * Враппер для обычного Dataloader с возвращением батча сразу на нужный device
    * Реализация архитектуры DCGAN
